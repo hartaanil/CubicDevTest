@@ -24,6 +24,8 @@ if __name__ == "__main__":
     else:
         print(f"Element {element_to_find} not found in the array.")
 
+    print("\nUsing different methods to find elements in the array:") NOT REQUIRED HERE
+
     # Method 2: find_all_occurrences
     all_indices = find_all_occurrences(array, element_to_find)
     if all_indices:
