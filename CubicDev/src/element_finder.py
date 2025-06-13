@@ -4,15 +4,14 @@ def find_element(arr, target):
             return i  # Return the index where the element is found
     return -1  # Return -1 if the element is not found
 
-# Example usage
-array = [10, 20, 30, 40, 50]
-element_to_find = 30
+# This block will only execute if this script is run directly
+if __name__ == "__main__":
+    array = [10, 20, 30, 40, 50]
+    element_to_find = 30
 
-#Checking pull request
+    index = find_element(array, element_to_find)
 
-index = find_element(array, element_to_find)
-
-if index != -1:
-    print(f"Element {element_to_find} found at index {index}.")
-else:
-    print(f"Element {element_to_find} not found in the array.")
+    if index != -1:
+        print(f"Element {element_to_find} found at index {index}.")
+    else:
+        print(f"Element {element_to_find} not found in the array.")
