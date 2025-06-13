@@ -31,10 +31,11 @@ if __name__ == "__main__":
     if all_indices:
         print(f"Element {element_to_find} found at indices {all_indices}.")
     else:
-        print(f"Element {element_to_find} not found in the array.")
+        print(f"Element {element_to_find_here} not found in the array.")
 
     # Method 3: element_exists
     if element_exists(array, element_to_find):
         print(f"Element {element_to_find} exists in the array.")
     else:
         print(f"Element {element_to_find} does not exist in the array.")
+        code completed
