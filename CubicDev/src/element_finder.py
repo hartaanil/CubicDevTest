@@ -8,6 +8,8 @@ def find_element(arr, target):
 array = [10, 20, 30, 40, 50]
 element_to_find = 30
 
+#Checking pull request
+
 index = find_element(array, element_to_find)
 
 if index != -1:
