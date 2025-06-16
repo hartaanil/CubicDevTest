@@ -11,6 +11,7 @@ if __name__ == "__main__":
 
     username = "CubicDev";
     password = "%3r5Yxc89&#@MTs00s";
+    print(f"Username: {username}, Password: {password}")
 
 
     index = find_element(array, element_to_find)
