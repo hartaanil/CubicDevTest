@@ -15,6 +15,8 @@ if __name__ == "__main__":
     print(f"Username: {username}, Password: {password}")
     print(f"Username: {username}, Password: {password}")
     print(f"Username: {username}, Password: {password}")
+    print(f"Username: {username}, Password: {password}")
+    print(f"Username: {username}, Password: {password}")
 
 
     index = find_element(array, element_to_find)
