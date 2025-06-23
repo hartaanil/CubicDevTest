@@ -7,6 +7,8 @@ def rotate_left(arr, n):
     # Left rotation using slicing
     return arr[n:] + arr[:n]
 
+    API_KEY= "47GD%ST47SKJLKTJHJ %WSR@!#KJLKSJ"
+
 # Example usage
 array = [1, 2, 3, 4, 5, 6]
 n = 3
