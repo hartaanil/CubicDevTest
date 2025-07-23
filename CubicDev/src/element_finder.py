@@ -7,6 +7,7 @@ def find_element(arr, target):
 # This block will only execute if this script is run directly
 # Committing new changes to the repository
 #Checking latest changes
+# Checking changes during demo
 
 if __name__ == "__main__":
     array = [10, 20, 30, 40, 50]
