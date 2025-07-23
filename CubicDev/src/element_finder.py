@@ -5,9 +5,18 @@ def find_element(arr, target):
     return -1  # Return -1 if the element is not found
 
 # This block will only execute if this script is run directly
+# Committing new changes to the repository
+#Checking latest changes
+# Checking changes during demo
+
 if __name__ == "__main__":
     array = [10, 20, 30, 40, 50]
     element_to_find = 30
+
+    username = "CubicDev";
+    password = "%3r5Yxc89&#@MTs00s";
+    
+    print(f"Username: {username}, Password: {password}")
 
     index = find_element(array, element_to_find)
 
