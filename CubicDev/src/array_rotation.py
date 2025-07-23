@@ -9,6 +9,8 @@ def rotate_left(arr, n):
 
     API_KEY= "47GD%ST47SKJLKTJHJ %WSR@!#KJLKSJ"
 
+# Checking new changes
+
 # Example usage
 array = [1, 2, 3, 4, 5, 6]
 n = 3
